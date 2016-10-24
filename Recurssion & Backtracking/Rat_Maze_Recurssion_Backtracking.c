@@ -12,6 +12,7 @@ void display(int sol[N][N])
 	}
 }
 
+
 int issafe(int maze[N][N],int x,int y)
 {
 	if((x>=0 && x<4) && (y>=0 && y<3) && maze[x][y]==1)
