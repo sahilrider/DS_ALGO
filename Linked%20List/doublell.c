@@ -55,6 +55,7 @@ void del_beg()
 	node *temp;	
 	temp=start;
 	start=start->right;
+	start->left=NULL;
 	free(temp);
 }
 void del_end()
