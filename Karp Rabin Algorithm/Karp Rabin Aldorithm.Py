@@ -1,5 +1,3 @@
-'''Searching time= O(|s|+|t|)
-
 def search(s,t,m):
     '''s=substring t=text string m=modulo'''
     ls=len(s)
@@ -7,29 +5,28 @@ def search(s,t,m):
     a=256       #aplhabet size 256 bcz of ASCII
     rs=0        #hash of substring
     rt=0        #hash of text string
-
+    
     '''Calculating hash of sub and first window of text'''
     for i in range(ls):
         rs=(rs*a + ord(s[i]))%m
         rt=(rt*a + ord(t[i]))%m
-    #print(rs,rt)
-    for i in range(lt-ls+1):
-        #print(i)
-        if rs==rt:
-            for j in range(ls):
-                if s[j]!=t[i+j]:
-                    break
-            if j+1==ls:
-                print('Substring found at %d'%(i))
-        else:
-            '''Deleting first element'''
-            rt=(rt - ord(t[i])*(a**(ls-1)))% m
-            '''Adding new element'''
-            rt=(rt*a + ord(t[i+ls]))%m
 
+    if rs==rt:
+        if s==t[:ls]:
+            print('Substring found at 0')
 
-
-
+    for i in range(ls,lt):
+        
+        '''Deleting first element'''
+        rt=(rt - ord(t[i-ls])*(a**(ls-1)))% m
+        '''Adding new element'''
+        rt=(rt*a + ord(t[i]))%m
+        
+        if rs==rt :
+            if s==t[i-ls+1:i+1]:
+                print('Substring found at %d'%(i-ls+1))
+        
+            
 
 def main():
     print('Enter the text string:')
