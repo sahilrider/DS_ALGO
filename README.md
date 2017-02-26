@@ -42,5 +42,5 @@
 <b>Special Algorithms</b>
 <ul>
 <li>Karp Rabin Algorithm</li>
-<li>Karastuba Multiplication</li>
+<li>Karatsuba Multiplication</li>
 </ul>
