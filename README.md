@@ -32,6 +32,17 @@
 <li>Interpolation Search</li>
 </ul>
 
+<b>Graph Algorithm</b>
+<ul>
+<li>Graph Representation</li>
+<li>Breadth First Search</li>
+<li>Depth First Search</li>
+<li>Topological Sort</li>
+<li>Minimum Path for Unweighted Graph</li>
+<li>Shortest Path for Directed Acyclic Graph</li>
+<li>Dijkstra's Algorithm</li>
+</ul>
+
 <b>Recurssion</b>
 <ul>
 <li>Tower of Hanoi</li>
