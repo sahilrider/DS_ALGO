@@ -8,7 +8,7 @@ def initialize(board,n):
         board['col'][i]=0
     for i in range(-(n-1),n):
         board['pdiag'][i]=0
-    for i in range(0,2*(n-1)):
+    for i in range(0,2*n-1):
         board['sdiag'][i]=0
 
 def placequeen(r,board,n):
