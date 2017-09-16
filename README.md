@@ -60,6 +60,7 @@
 <li>Tower of Hanoi</li>
 <li>N Queens Problem</li>
 <li>Rat Maze Problem</li>
+<li>m Coloring Problem</li>
 </ul>
 
 <b>Special Algorithms</b>
