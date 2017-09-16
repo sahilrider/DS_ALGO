@@ -32,7 +32,7 @@
 <li>Interpolation Search</li>
 </ul>
 
-<b>Divide N Conquer</b>
+<b>[Divide N Conquer](https://github.com/sahilrider/DS_ALGO/tree/master/Divide%20N%20Conquer)</b>
 <ul>
 <li>Second Max in an array</li>
 <li>Binary Search on a Matrix</li>
