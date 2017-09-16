@@ -52,6 +52,7 @@
 <li>Minimum Path for Unweighted Graph</li>
 <li>Shortest Path for Directed Acyclic Graph</li>
 <li>Dijkstra's Algorithm</li>
+<li>Floyd Warshall Algorithm</li>
 </ul>
 
 <b>Recurssion</b>
