@@ -32,6 +32,17 @@
 <li>Interpolation Search</li>
 </ul>
 
+<b>Divide N Conquer</b>
+<ul>
+<li>Second Max in an array</li>
+<li>Binary Search on a Matrix</li>
+<li>Count no. of X in an array</li>
+<li>Find Minimum if array is rotated clockwise</li>
+<li>Inversion Pairs</li>
+<li>Find a,b such that a+b=X</li>
+<li>Find Median of two sorted arrays after merging</li>
+</ul>
+
 <b>Graph Algorithm</b>
 <ul>
 <li>Graph Representation</li>
