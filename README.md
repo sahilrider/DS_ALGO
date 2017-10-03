@@ -68,3 +68,8 @@
 <li>Karp Rabin Algorithm</li>
 <li>Karatsuba Multiplication</li>
 </ul>
+
+<b>Approximation Problems</b>
+<ul>
+<li>Minimum Vertex Cover</li>
+</ul>
