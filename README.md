@@ -69,6 +69,11 @@
 <li>Karatsuba Multiplication</li>
 </ul>
 
+<b>Greedy Algorithm</b>
+<ul>
+<li>Fractional Knapsack</li>
+</ul>
+
 <b>Approximation Problems</b>
 <ul>
 <li>Minimum Vertex Cover</li>
