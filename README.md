@@ -72,6 +72,7 @@
 <b>Greedy Algorithm</b>
 <ul>
 <li>Fractional Knapsack</li>
+<li>Huffman Codes</li>
 </ul>
 
 <b>Approximation Problems</b>
