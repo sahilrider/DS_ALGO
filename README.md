@@ -73,6 +73,7 @@
 <ul>
 <li>Fractional Knapsack</li>
 <li>Huffman Codes</li>
+<li>Job Sequencing</li>
 </ul>
 
 <b>Approximation Problems</b>
