@@ -75,6 +75,17 @@
 <li>Huffman Codes</li>
 </ul>
 
+<b>Dynamic Programming</b>
+<ul>
+<li>Cut Rod</li>
+<li>Edit Distance</li>
+<li>Word Wrap</li>
+<li>0-1 Knapsack</li>
+<li>Minimum Coins</li>
+<li>Subset Sum Problem</li>
+<li>Minimum Cost Path</li>
+</ul>
+
 <b>Approximation Problems</b>
 <ul>
 <li>Minimum Vertex Cover</li>
