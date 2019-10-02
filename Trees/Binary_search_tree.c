@@ -156,6 +156,23 @@ int externalnodes(node *r)
 	else
 		return externalnodes(r->lptr) + externalnodes(r->rptr);
 }
+
+int getheight(node *r){
+	if(r == NULL){
+		return 0;
+	}else{
+		int leftHeight = getheight(r->lptr);
+		int rightHeight = getheight(r->rptr);
+		if(leftHeight > rightHeight){
+			return(leftHeight+1); 
+		}else{
+			return(rightHeight+1);
+		}
+	}
+}
+
+
+
 void main()
 {
 	node *small,*large;
@@ -171,6 +188,8 @@ void main()
 	root=insert(root,16);
 	root=insert(root,36);
 	root=insert(root,5);
+
+	printf("Height of tree is %d", getheight(root));
 	
 	printf("\nPre Order Transversal: ");
 	preorder(root);
