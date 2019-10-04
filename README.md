@@ -12,7 +12,7 @@
 <li>Graphs</li>
 </ul>
 
-<b>[Sorting](https://github.com/sahilrider/DS_ALGO/tree/master/Sorting)Sorting Algorithms</b>
+<b>[Sorting Algorithms](https://github.com/sahilrider/DS_ALGO/tree/master/Sorting)</b>
 <ul>
 <li>Bubble Sort</li>
 <li>Selection Sort</li>
