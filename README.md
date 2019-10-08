@@ -29,6 +29,7 @@
 <ul>
 <li>Linear Search</li>
 <li>Binary Search</li>
+<li>Fibonacci Search</li>
 <li>Interpolation Search</li>
 </ul>
 
