@@ -67,6 +67,7 @@
 <ul>
 <li>Karp Rabin Algorithm</li>
 <li>Karatsuba Multiplication</li>
+<li>Sieve of Eratosthenes</li>
 </ul>
 
 <b>Greedy Algorithm</b>
