@@ -1,19 +1,16 @@
 #include<stdio.h>
 #include<string.h>
-#include<conio.h>
-
 char stack[50];
 int top=-1;
 void push(char c)
 {
-	top++;
-	stack[top]=c;
+	
+	stack[++top]=c;
 }
 char pop()
 {
 	char c;
-	c=stack[top];
-	top--;
+	c=stack[top--];
 	return c;
 }
 char peek()
@@ -70,10 +67,10 @@ void func(char ch[])
 	puts(exp);	
 }
 
-void main()
+int main()
 {
 	char ch[50];
 	printf("Enter any expression in braces():");
-	gets(ch);
+	scanf("%s",ch);
 	func(ch);
 }
