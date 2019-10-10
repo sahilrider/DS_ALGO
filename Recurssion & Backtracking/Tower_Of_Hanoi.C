@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<math.h>
 void move(int n,char source,char dest,char spare)
 {
 	if(n==1)
@@ -18,5 +18,6 @@ int main()
 	printf("Enter the no. of rings:");
 	scanf("%d",&n);
 	move(n,'A','C','B');
+        printf("total number of moves are:%d\n",(int)pow(2,n)-1);
 	return 0;
 }
