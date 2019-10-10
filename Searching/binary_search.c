@@ -1,30 +1,37 @@
 #include<stdio.h>
-void main()
+int i,k,n,temp,A[1000];
+void bubblesort(int A[],int n)
 {
-	int min,max,mid,a[20],n,i,search,ctr=0;
-	printf("size");
-	scanf("%d",&n);
-	for(i=0;i<n;i++)
-		scanf("%d",&a[i]);
-	printf("search");
-	scanf("%d",&search);
-		
-	min=0;max=n-1;
-	while(min<=max)
+
+	for(k=0;k<n-1;k++)
 	{
-		mid=(min+max)/2;
-		if(search==a[mid])
+		int flag=0;
+		for(i=0;i<n-(k+1);i++)
 		{
-			ctr++;
-			break;
+			if(A[i]>A[i+1])
+			{
+				temp=A[i+1];
+				A[i+1]=A[i];
+				A[i]=temp;
+				flag=1;
+			}
 		}
-		else if(search<a[mid])
-			max=mid-1;
-		else if(search>a[mid])
-			min=mid+1;
+		if(flag==0)
+		break;
 	}
-	if(ctr==1)
-		printf("Found");
-	else
-		printf("Not Found");	
+}
+int main()
+{
+	
+        printf("enter the number of element:\n");
+        	scanf("%d",&n);
+        printf("enter the elements:\n");
+         	for(i=0;i<n;i++)
+			scanf("%d",&A[i]);
+        bubblesort(A,n);
+	printf("The sorted elements are:\n");
+	for(i=0;i<n;i++)
+	{
+		printf("%d\n",A[i]);
+	}
 }
