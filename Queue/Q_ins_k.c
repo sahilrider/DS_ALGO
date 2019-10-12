@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-#define SIZE 10
+#define SIZE 50
 
 int queue[SIZE], front = -1, rear = -1;
 
