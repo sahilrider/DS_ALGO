@@ -2,7 +2,7 @@
 #include<string.h>
 #include<conio.h>
 
-char stack[50];
+char stack[100];
 int top=-1;
 void push(char c)
 {
@@ -35,7 +35,7 @@ int ispri(char c)
 
 void func(char ch[])
 {
-	char exp[50];
+	char exp[100];
 	int ctr=0;
 	int i;
 	for(i=0;ch[i]!='\0';i++)
@@ -72,7 +72,7 @@ void func(char ch[])
 
 void main()
 {
-	char ch[50];
+	char ch[100];
 	printf("Enter any expression in braces():");
 	gets(ch);
 	func(ch);
