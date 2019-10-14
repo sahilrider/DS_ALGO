@@ -16,6 +16,7 @@ void del_start();
 void del_last();
 void del_any();
 void disp_rev();
+void insertatpos();
 
 int main()
 {
@@ -30,6 +31,7 @@ int main()
 		printf("6.Delete last\n");
 		printf("7.Delete any\n");
 		printf("8.Display Reverse\n");
+		printf("9.Insert at any position\n");
 		scanf("%d",&n);
 		switch(n)
 		{
@@ -41,11 +43,32 @@ int main()
 			case 6: del_last(); break;
 			case 7:del_any(); break;
 			case 8: disp_rev(); break;
+			case 9: insertatpos(); break;
 		}
 		
 	}
 	
 	return 0;
+}
+void insertatpos()
+{
+	node *new,*ptr;
+	int value,pos,i;
+	printf("Enter position=");
+	scanf("%d",&pos);
+	printf("\nEnter value=");
+	scanf("%d",&value);
+	new=(node*)malloc(sizeof(node));
+	ptr=head;
+	if(new!=NULL)
+	{
+		new->num=value;
+		new->next=NULL;
+		for(i=1;i<=pos-2;i++)
+			ptr=ptr->next;
+		new->next=ptr->next;
+		ptr->next=new;
+	}
 }
 
 void ins_beg()
