@@ -1,4 +1,5 @@
 # DS_ALGO
+
 <b>Data Structures and algorithms </b>
 <br>
 <b>Data Structres:</b>
@@ -12,7 +13,7 @@
 <li>Graphs</li>
 </ul>
 
-<b>Sorting Algorithms</b>
+<b>[Sorting Algorithms](https://github.com/sahilrider/DS_ALGO/tree/master/Sorting)</b>
 <ul>
 <li>Bubble Sort</li>
 <li>Selection Sort</li>
@@ -25,7 +26,7 @@
 <li>Radix Sort</li>
 </ul>
 
-<b>Searching Algorithm</b>
+<b>[Searching Algorithm](https://github.com/sahilrider/DS_ALGO/tree/master/Searching)</b>
 <ul>
 <li>Linear Search</li>
 <li>Binary Search</li>
@@ -43,7 +44,7 @@
 <li>Find Median of two sorted arrays after merging</li>
 </ul>
 
-<b>Graph Algorithm</b>
+<b>[Graph Algorithm](https://github.com/sahilrider/DS_ALGO/tree/master/Graph)</b>
 <ul>
 <li>Graph Representation</li>
 <li>Breadth First Search</li>
@@ -55,7 +56,7 @@
 <li>Floyd Warshall Algorithm</li>
 </ul>
 
-<b>Recurssion</b>
+<b>[Recursion and Backtracking](https://github.com/sahilrider/DS_ALGO/tree/master/Recurssion%20%26%20Backtracking)</b>
 <ul>
 <li>Tower of Hanoi</li>
 <li>N Queens Problem</li>
@@ -65,17 +66,17 @@
 
 <b>Special Algorithms</b>
 <ul>
-<li>Karp Rabin Algorithm</li>
+<li>Karp Rabin Algorithm/li>
 <li>Karatsuba Multiplication</li>
 </ul>
 
-<b>Greedy Algorithm</b>
+<b>[Greedy Algorithm](https://github.com/sahilrider/DS_ALGO/tree/master/Greedy)</b>
 <ul>
 <li>Fractional Knapsack</li>
 <li>Huffman Codes</li>
 </ul>
 
-<b>Dynamic Programming</b>
+<b>[Dynamic Programming](https://github.com/sahilrider/DS_ALGO/tree/master/Dynamic%20Programming)</b>
 <ul>
 <li>Cut Rod</li>
 <li>Edit Distance</li>
@@ -86,7 +87,13 @@
 <li>Minimum Cost Path</li>
 </ul>
 
-<b>Approximation Problems</b>
+<b>[Approximation Problems](https://github.com/sahilrider/DS_ALGO/tree/master/Approximation)</b>
 <ul>
 <li>Minimum Vertex Cover</li>
+</ul>
+
+<b>[Codechef Problems](https://github.com/sahilrider/DS_ALGO/tree/master/Codechef)</b>
+<ul>
+<li>COOK92B</li>
+<li>MARCH18B</li>
 </ul>
