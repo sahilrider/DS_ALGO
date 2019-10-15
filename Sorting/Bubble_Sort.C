@@ -21,10 +21,19 @@ void bubblesort(int A[],int n)
 }
 int main()
 {
-	int i;
-	int A[]={2,6,9,3,5,1};
-	bubblesort(A,6);
-	for(i=0;i<6;i++)
+	int i,j;
+	printf("Enter no.of inputs\n");
+	scanf("%d".&j);
+	int A[j];
+	printf("Enter data\n");
+	for(int k=0;k<j;k++)
+	{
+	  scanf("%d",&A[i]);
+	  printf("Enter next data\n");
+	}
+	
+	bubblesort(A,j);
+	for(i=0;i<j;i++)
 	{
 		printf("%d",A[i]);
 	}
