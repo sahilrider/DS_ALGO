@@ -30,6 +30,7 @@
 <li>Linear Search</li>
 <li>Binary Search</li>
 <li>Interpolation Search</li>
+<li>MinMax Finding</li>
 </ul>
 
 <b>[Divide N Conquer](https://github.com/sahilrider/DS_ALGO/tree/master/Divide%20N%20Conquer)</b>
