@@ -1,34 +1,25 @@
 #include<stdio.h>
-#include<conio.h>
-#define SIZE 10
-
-int queue[SIZE], front = -1, rear = -1;
-
+int queue[100], front = 0, rear = -1,n;
 void insert(int value)
 {
-	if(rear == SIZE-1)
+	if(rear == (n-1))
 		printf("\nQueue is Full!!! Insertion is not possible!!!");
 	else
-	{
-  		if(front == -1)
-   			front = 0;
- 			rear++;
- 			queue[rear] = value;
-	}
+	    queue[++rear] = value;
 }
 
 void insertk(int pos,int val)
 {
-	if(rear==SIZE-1)
+                if(rear==(n-1))
 		printf("Queue is FULL\n");
-	else
-	{
+                else
+{
 		int i;
 		for(i=rear;i>=pos-1;i--)
 			queue[i+1]=queue[i];
 		queue[pos-1]=val;
-		rear++;
-	}
+		rear++;	
+}
 }
 
 void display()
@@ -48,16 +39,19 @@ void display()
 int main()
 {
 	int i,pos,val;
-	for(i=1;i<6;i++)
-		insert(i);
+        printf("enter the number of elements:\n");
+        scanf("%d",&n);
+        printf("enter the queue elements\n");
+	for(i=0;i<n;i++)
+        {
+	scanf("%d",&queue[i]);
+        insert(queue[i]);
+        }
 	display();
-	
 	printf("Enter the position and value:");
 	scanf("%d%d",&pos,&val);
-	
 	insertk(pos,val);
 	display();	
-	
 	return 0;
 }
 

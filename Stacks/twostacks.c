@@ -117,7 +117,7 @@ int display1()
 	return;
 }
 
-int display2()
+void display2()
 {
 	int i;
 	for(i=9;i>=top2;i--)

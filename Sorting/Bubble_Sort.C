@@ -1,11 +1,12 @@
 #include<stdio.h>
+int i,k,n,temp,A[1000];
 void bubblesort(int A[],int n)
 {
-	int i,k,temp;
+
 	for(k=0;k<n-1;k++)
 	{
 		int flag=0;
-		for(i=0;i<n-k-1;i++)
+		for(i=0;i<n-(k+1);i++)
 		{
 			if(A[i]>A[i+1])
 			{
@@ -21,11 +22,16 @@ void bubblesort(int A[],int n)
 }
 int main()
 {
-	int i;
-	int A[]={2,6,9,3,5,1};
-	bubblesort(A,6);
-	for(i=0;i<6;i++)
+	
+        printf("enter the number of element:\n");
+        	scanf("%d",&n);
+        printf("enter the elements:\n");
+         	for(i=0;i<n;i++)
+			scanf("%d",&A[i]);
+        bubblesort(A,n);
+	printf("The sorted elements are:\n");
+	for(i=0;i<n;i++)
 	{
-		printf("%d",A[i]);
+		printf("%d\n",A[i]);
 	}
 }

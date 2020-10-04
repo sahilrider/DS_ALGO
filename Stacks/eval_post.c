@@ -4,13 +4,12 @@ int stack[10],top=-1;
 
 void push(int ch)
 {
-	top++;
-	stack[top]=ch;
+
+	stack[++top]=ch;
 }
 int pop()
 {
-	int temp=stack[top];
-	top--;
+	int temp=stack[top--];
 	return temp;
 }
 
